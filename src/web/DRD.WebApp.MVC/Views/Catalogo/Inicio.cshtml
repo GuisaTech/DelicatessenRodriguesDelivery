@@ -1,0 +1,13 @@
+﻿@using DRD.WebApp.MVC.Extensions
+
+@{
+    ViewData["Title"] = "Administração";
+}
+
+<div style="margin-top: 100px;">
+    <div>
+            <a asp-controller="Catalogo" asp-action="AdicionarCategoria" class="btn btn-success my-2">Adicionar Nova Categoria</a> <span> | </span>
+            <a asp-controller="Catalogo" asp-action="AdicionarProduto" class="btn btn-success my-2"> Adicionar Novo Produto</a> <span> | </span>
+            <a asp-controller="Catalogo" asp-action="Catalogo" target="_blank" class="btn btn-success my-2"> Ver Catalogo</a>
+        </div>
+</div>
